@@ -6,6 +6,13 @@ public class Estudiante {
     private String matricula;
     private Integer edad;
 
+    public Estudiante(String nombre, String apellido, String matricula, int edad) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.matricula = matricula;
+        this.edad = edad;
+    }
+
     public String getNombre() {
         return nombre;
     }
